@@ -9,7 +9,7 @@ const Projects = () => {
   return (
     <div className="py-20" id="projects">
       <h1 className="heading">
-        Here are some <span className="text-purple">projects</span> I've worked on
+        Here are some <span className="text-purple">projects</span> I have worked on
       </h1>
 
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
