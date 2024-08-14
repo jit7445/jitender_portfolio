@@ -91,7 +91,7 @@ export const projects = [
     des: "real-time communication each othe and make group ",
     img: "/p1.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/mongo.svg", "prisma.svg"],
-    link: "https://github.com/jit7445/messenger-app",
+    link: "https://chat-app-eight-iota-55.vercel.app/",
   },
   {
     id: 2,
@@ -107,7 +107,7 @@ export const projects = [
     des: "watch all movies in free ",
     img: "/p3.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
-    link: "https://github.com/jit7445/moviewala",
+    link: "https://freecinema.vercel.app/",
   },
   {
     id: 4,

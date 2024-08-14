@@ -1,7 +1,7 @@
 "use client";
 
 import { FaLocationArrow } from "react-icons/fa6";
-
+import Link from "next/link";
 import { projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
 
@@ -66,9 +66,9 @@ const Projects = () => {
                 </div>
 
                 <div className="flex justify-center items-center">
-                  <p className="flex lg:text-xl md:text-xs text-sm text-purple">
+                  <Link href={item.link} className="flex lg:text-xl md:text-xs text-sm text-purple">
                     Github Link
-                  </p>
+                  </Link>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
                 </div>
               </div>
