@@ -1,3 +1,6 @@
+import { link } from "fs";
+import { title } from "process";
+
 export const navItems = [
   { name: "Home", link: "#" },
   { name: "about", link: "#about" },
@@ -16,6 +19,9 @@ export const skills = [
   { id: 7, name: 'Next.js' },
   { id: 8, name: 'SQL' },
   { id: 9, name: 'MongoDB' },
+  {id:10,name:'ExpressJs'},
+  {id:11,name:'Tailwind'},
+  {id:12,name:"socket.io"}
 ];
 
 
@@ -101,22 +107,34 @@ export const projects = [
     iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/postgr.svg"],
     link: "",
   },
+  { 
+    id:3,
+    title:"liveDocs",
+    des:"Users can create, share, and collaborate on documents seamlessly, with the ability to invite others and control access permissions.",
+    img:"/p5.png",
+    iconLists:["/next.svg","/tail.svg","/ts.svg"],
+    link:"https://livedocs-snowy.vercel.app/"
+
+
+
+  },
+
   {
-    id: 3,
+    id: 4,
     title: "Moviesite-app",
     des: "watch all movies in free ",
     img: "/p3.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
     link: "https://freecinema.vercel.app/",
   },
-  {
-    id: 4,
-    title: "todo-app",
-    des: "",
-    img: "/p4.png",
-    iconLists: ["/html.svg", "/css.svg", "/js.svg"],
-    link: "https://jit7445.github.io/mytaskweb/",
-  },
+  // {
+  //   id: 5,
+  //   title: "todo-app",
+  //   des: "",
+  //   img: "/p4.png",
+  //   iconLists: ["/html.svg", "/css.svg", "/js.svg"],
+  //   link: "https://jit7445.github.io/mytaskweb/",
+  // },
 ];
 
 
