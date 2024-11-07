@@ -3,7 +3,7 @@ import type { Config } from "tailwindcss";
 import svgToDataUri from "mini-svg-data-uri";
 
 import colors from "tailwindcss/colors";
-import { default as flattenColorPalette } from "tailwindcss/lib/util/flattenColorPalette";
+import { default as flattenColorPalette } from "tailwindcss/lib/util/flattenColorPalette"; 
 
 const config = {
   darkMode: ["class"],
@@ -200,3 +200,8 @@ function addVariablesForColors({ addBase, theme }: any) {
 }
 
 export default config;
+function customFlattenColorPalette(arg0: any): void {
+  throw new Error("Function not implemented.");
+}
+
+
